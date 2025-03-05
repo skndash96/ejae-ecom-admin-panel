@@ -1,6 +1,6 @@
 ## 🧾 Description
 
-ejae is an E-commerce platform for small bussiness owners who want to expand their bussiness by providing an online purchase solution to their customers.
+This is an E-commerce platform for small bussiness owners who want to expand their bussiness by providing an online purchase solution to their customers.
 
 ## ✨ Features
 
@@ -181,6 +181,6 @@ This is privilege is ideal for the delivery-agent(s).
 
 | **E-mail**          | **Password** |
 | ------------------- | ------------ |
-| bob@ejae.com  | bob1212      |
-| test@ejae.com | test1212     |
+| bob@gmail.com  | bob1212      |
+| test@gmail.com | test1212     |
 

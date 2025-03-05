@@ -1,34 +1,6 @@
-<p align='center'>
-<img src='./src/assets/logo.svg'  width='25%'>
-</p>
-<p align='center'>
-<b>E-commerce web-application for selling clothing essentials</b>
-</p>
-<p align='center'>
-<a href='https://tomper-wear.netlify.app/' target='_blank'>tomper-wear-admin.netlify.app</a> (cloud-based)
-<br/>
-<a href='https://tw-admin.varuntiwari.com' target='_blank'>tw-admin.varuntiwari.com</a> (self-hosted)
-</p>
-
----
-
-<p align='center'>
-This is the Admin dashboard of TomperWear build with MERN stack and deployed with <a href='https://www.netlify.com/' target='_blank'>Netlify</a>
-</p>
-
-<p align='center'>
-<img src='./assets/dpmain.png'>
-</p>
-
-## 🚀 Link to [Client](https://github.com/varunKT001/tomper-wear-ecommerce), [Backend](https://github.com/varunKT001/tomper-wear-ecommerce-backend)
-
-## 📷 Link to [Screenshots](./SCREENSHOTS.md)
-
-## 🎥 Link to [Video demo](https://youtu.be/5oGqxtSN0jY)
-
 ## 🧾 Description
 
-TomperWear is an E-commerce platform for small bussiness owners who want to expand their bussiness by providing an online purchase solution to their customers.
+ejae is an E-commerce platform for small bussiness owners who want to expand their bussiness by providing an online purchase solution to their customers.
 
 ## ✨ Features
 
@@ -50,7 +22,7 @@ Users shopping through this platform enjoys following features:
 
 #### Admin
 
-The admin panel of TomperWear contains three classes of admins:
+The admin panel of ejae contains three classes of admins:
 
 **1. Super privileged admin**
 Super privileged admins are the topmost in the hierarchy. They have the following permissions:
@@ -155,7 +127,7 @@ This is privilege is ideal for the delivery-agent(s).
 
 ## ⚙ Tools and Technologies used
 
-#### [Client](https://github.com/varunKT001/tomper-wear-ecommerce)
+#### [Client]()
 
 1. [React.js](https://reactjs.org/)
 2. [React-icons](https://react-icons.github.io/react-icons/)
@@ -164,13 +136,13 @@ This is privilege is ideal for the delivery-agent(s).
 5. [Stripe](https://stripe.com/)
 6. [Formspree](https://formspree.io/)
 
-#### [Admin panel](https://github.com/varunKT001/tomper-wear-ecommerce-admin)
+#### [Admin panel]()
 
 1. [React.js](https://reactjs.org/)
 2. [Chakra-ui](https://chakra-ui.com/)
 3. [React-icons](https://react-icons.github.io/react-icons/)
 
-#### [Backend](https://github.com/varunKT001/tomper-wear-ecommerce-backend)
+#### [Backend]()
 
 1. [Node.js](https://nodejs.org/en/)
 2. [Express.js](https://expressjs.com/)
@@ -189,11 +161,7 @@ This is privilege is ideal for the delivery-agent(s).
    npm install
    ```
 
-3. Create a .env file inside the root folder and provide the following environment variables:
-
-   ```env
-   REACT_APP_BACKEND_HOST=<backend_url>
-   ```
+3. Create a `.env` file and copy-paste the contents of `.env.sample` in it.
 
 4. Start the dev server using :
 
@@ -209,31 +177,10 @@ This is privilege is ideal for the delivery-agent(s).
    npm run build
    ```
 
-## 🤝 Test admin user credentials
+## 🤝 Test user credentials
 
-| **Username**  | **E-mail**                   | **Password**     |
-| ------------- | ---------------------------- | ---------------- |
-| Test Super    | test.super@tomperwear.com    | testsuper1212    |
-| Test Moderate | test.moderate@tomperwear.com | testmoderate1212 |
-| Test Low      | test.low@tomperwear.com      | testlow1212      |
+| **E-mail**          | **Password** |
+| ------------------- | ------------ |
+| bob@ejae.com  | bob1212      |
+| test@ejae.com | test1212     |
 
-NOTE: These are just for testing purpose. Please don't:
-
-1. Update or delete an existing product.
-2. Delete product reviews.
-3. Create new admin users.
-4. Delete existing admin users.
-
-For testing out things, you can create a new product, try out things and after that delete the product that you created.
-
-## 😎 Team Members
-
-1. Varun Kumar Tiwar - 2020IMT-112
-
-<br>
-<br>
-<br>
-
-<p align='center'>
-(If you liked the project, give it star 😃)
-</p>

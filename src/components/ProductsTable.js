@@ -73,13 +73,13 @@ function ProductsTable({ products }) {
           </Thead>
           <Tbody>
             {products.map((product, index) => {
-              const { image, name, price, stock, category, company, id } =
+              const { images, name, price, stock, category, company, id } =
                 product;
               return (
                 <Tr key={index}>
                   <Td>
                     <Image
-                      src={image}
+                      src={images[0].url}
                       boxSize='100px'
                       objectFit='cover'
                       borderRadius='lg'

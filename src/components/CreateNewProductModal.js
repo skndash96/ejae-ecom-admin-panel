@@ -20,9 +20,11 @@ import {
   Image,
   VStack,
   Checkbox,
+  Select,
 } from '@chakra-ui/react';
 import { useDropzone } from 'react-dropzone';
 import { useProductContext } from '../context/product_context';
+import { categories } from '../categories';
 
 function CreateNewProductModal() {
   const {
@@ -199,13 +201,21 @@ function CreateNewProductModal() {
 
             <FormControl mt={4}>
               <FormLabel>Category</FormLabel>
-              <Input
-                placeholder='Product Category'
+              <Select
+                placeholder='Select Category'
                 name='category'
                 focusBorderColor='brown.500'
                 value={category}
                 onChange={updateNewProductDetails}
-              />
+              >
+                {categories.map((item, index) => {
+                  return (
+                    <option key={index} value={item.name}>
+                      {item.name}
+                    </option>
+                  );
+                })}
+              </Select>
             </FormControl>
 
             <FormControl mt={4}>

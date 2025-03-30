@@ -6,11 +6,11 @@ function OrderItemsList({ orderItems }) {
   return (
     <VStack alignItems='flex-start' spacing='4'>
       {orderItems.map((item, index) => {
-        const { name, price, quantity, image, color, size } = item;
+        const { name, price, quantity, images, color, size } = item;
         return (
           <HStack key={index} alignItems='flex-start' spacing='5'>
             <Image
-              src={image}
+              src={images?.[0]?.url || "/logo512.png"}
               boxSize='100px'
               objectFit='cover'
               borderRadius='lg'

@@ -88,11 +88,11 @@ function OrdersTable({ orders }) {
                   <Td>
                     <VStack alignItems='flex-start' spacing={5}>
                       {orderItems.map((item, index) => {
-                        const { image, name, price } = item;
+                        const { images, name, price } = item;
                         return (
                           <HStack key={index}>
                             <Image
-                              src={image}
+                              src={images?.[0]?.url || "/logo512.png"}
                               boxSize='50px'
                               objectFit='cover'
                               borderRadius='lg'

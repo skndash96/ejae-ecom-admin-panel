@@ -26,7 +26,7 @@ function OrderDetails({
       name: '',
       price: '',
       quantity: '',
-      image: '',
+      images: [],
       color: '',
       product: '',
       _id: '',

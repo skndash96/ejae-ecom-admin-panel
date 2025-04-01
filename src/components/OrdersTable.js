@@ -91,7 +91,10 @@ function OrdersTable({ orders }) {
                         const { images, name, price } = item;
                         return (
                           <HStack key={index}>
-                            <Image
+                            <img
+                              style={{
+                                maxWidth: "100px",
+                              }}
                               src={images?.[0]?.url || "/logo512.png"}
                               boxSize='50px'
                               objectFit='cover'
